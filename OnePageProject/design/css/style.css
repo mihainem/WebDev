@@ -1,0 +1,273 @@
+
+
+/* Add your CSS below! */
+body {
+	background-size: cover;
+	background: url('http://www.skodn.com/wp-content/uploads//seamless-marble-texture-sqlqavr4.jpg');
+	height: 3000px;
+ }
+
+.header {
+	// background-color: green;
+	//border: 1px solid black;
+	border-bottom: 1px solid #000;
+	border-radius: 5;
+	height: 53px;
+ }
+
+.menu {
+	height: 30;
+	margin-top: 10px;
+	padding-top: 3;
+ }
+
+.main  > * {display: none;}
+
+.main > div {
+	//background-color: white;
+	//height: 500px;
+	border-radius: 10px;
+	//border: 10px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	width: 90%;
+ }
+
+.main  .sign-up {height: 500px;}
+
+.active {display: block;}
+
+.selected {
+	background-color: #55c !important;
+	box-shadow: 2px 2px 2px 2px !important;
+ }
+
+label > form {display: none;}
+
+canvas {background-color: white;}
+
+marquee {
+	position: relative;
+	top: -30px;
+ }
+
+.header ul li {
+	background-color: #55f;
+	border-radius: 5;
+	box-shadow: 5px 5px 5px 5px;
+	display: inline;
+	margin-left: 20px;
+	position: relative;
+	right: 30px;
+ }
+ 
+
+.header a {
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+ }
+
+.footer ul li {
+	display: inline;
+	padding: 20px 100px 2px 2px;
+	position: relative;
+	top: -20px;
+ }
+
+#show_news ul li a {
+	color: blue;
+	font-size: 15px;
+	font-style: italic;
+ }
+
+#show_news li:nth-child(odd) {
+	background-color: #ccc;
+	border-radius: 5px;
+ }
+
+#show_news li:nth-child(even) {
+	background-color: #eee;
+	border-radius: 5px;
+ }
+
+.footer {
+	background-color: #000;
+	bottom: 0px;
+	padding-top: 12px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+ }
+
+a {color: white;}
+
+.big-text{
+	top: 20%;
+	color: blue;
+	font-size: 100px;	
+}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+ }
+
+img {
+	height: 100px;
+	margin: 10px 10px 1px 1px;
+	width: 100px;
+ }
+
+	img:hover {cursor: hand;}
+
+#button_add_file {width: 100%;}
+
+div.question {
+	background-color: #fff;
+	border-radius: 5px;
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+ }
+
+li.answer {
+	background-color: #eec;
+	border-radius: 5px;
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+ }
+
+	li.answer:nth-child(even) {
+		background-color: #ed3;
+		list-style-type: none;
+		width: auto;
+	 }
+
+.reply:hover {
+	color: blue;
+	font-size: 17px;
+ }
+
+.reply-form {
+	background-color: #f52;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+ }
+ .reply-form  textarea, .reply-form  input{
+	max-width:95%;
+ }
+
+.exit {
+	background-color: gray;
+	border: 1px solid gray;
+	color: blue;
+	font-size: 20px;
+	text-align: center;
+	width: 20px;
+ }
+
+	.exit:hover {background-color: orange;}
+
+.sign-up > div:first-child {border-right: 1px solid black;}
+
+.sign-up > div {
+	margin-top: 50px;
+	text-align: center;
+ }
+
+.sign-up input {
+	height: 50px;
+	margin-top: 20px;
+	max-width: 80%;
+	min-width: 70%;
+ }
+ .sign-up input[type="submit"]{
+	color: green;
+ }
+ 
+ div#add_question {	
+	background-color: cyan;
+	border-radius: 5px;	
+	padding: 10px 10px 10px 10px;
+	position: fixed;
+	bottom: -135px;
+	right: 10px;
+	overflow: hidden;
+	transition: all 0.5s;
+	font-size: 20px;
+	text-align: center;	
+ }
+ div#add_question p{
+	text-align: center;
+ }
+ 
+div#add_question:hover, div#add_question:active {	
+	background-color: cyan;
+	border-radius: 5px;	
+	padding: 10px 10px 10px 10px;
+	position: fixed;
+	bottom: 100px; 
+	right: 10px;
+	transition: all 0.5s;
+	font-size: 20px;	
+	text-align: center;
+ }
+
+textarea {resize: none;}
+
+#front-frame img {
+	background-size: cover;
+	border-radius: 20;
+	border: 4px solid white;
+	height: auto;
+	margin-bottom: 10%;
+	margin-left: 3%;
+	margin-top: 3%;
+	width: 95%;
+ }
+
+#back-frame {
+	background-color: #000;
+	border: 1px solid black;
+	cursor: hand;
+	display: none;
+	height: 100%;
+	left: 0px;
+	opacity: 0.8;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+ }
+
+#front-frame {
+	background-color: white;
+	border-radius: 10;
+	display: block;
+	display: none;
+	height: auto;
+	margin-left: 3%;
+	padding: auto;
+	position: fixed;
+	top: 100px;
+	width: 80%;
+	z-index: 2;
+ }
+
+.wallpapers li {
+	// vertical-align: middle;
+	display: inline;
+	margin-left: 10px;
+ }
+
+canvas {border: 1px solid black;}
+
+
+/*
+*overflow: scroll, hidden // hides items relative to this item that are out of view
+*element:nth-child(3n); //selectes every element divisible by 3
+* !important - overrides element's style;
+* transition: all 0.5s;
+*/
